@@ -1,16 +1,16 @@
 /******************************************************************************/
-/* This file was created by Jacob Zimmer for use at the International 		  */
+/* This file was created by Jacob Zimmer for use at the International         */
 /* University of East Africa in Kampala, Uganda.  It may be used as study     */
 /* material for private individuals or with permission in an educational      */
-/* setting.  Contact the creator at zimmer.jacob@gmail.com 					  */
+/* setting.  Contact the creator at zimmer.jacob@gmail.com 	                  */
 /******************************************************************************/
-/* Name: 																	  */
-/* OOP1 Section: 															  */
+/* Name:                                                                      */
+/* OOP1 Section:                                                              */
 /******************************************************************************/
 /* This is a diagnostic test designed to see how well you have learned the    */
-/* concepts in the first weeks of OOP1.  THIS IS NOT FOR A GRADE, but it MUST */
+/* concepts in the third week of OOP1.  THIS IS NOT FOR A GRADE, but it MUST  */
 /* be completed.  Try to complete each task to the best of your ability, but  */
-/* if you cannot figure something out, please move on quickly. 				  */
+/* if you cannot figure something out, please move on quickly.                */
 /******************************************************************************/
 
 public class Data {
