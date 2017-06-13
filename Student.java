@@ -44,10 +44,10 @@ public class Student {
 
 	// A constructor for a student named Jacob
 	public Student() {
-		name = "Jacob";
+		name = "Jacob Zimmer";
 		age = 20;
 		userID = 0;
-	}
+	}	
 
 
 	// This week we will look more closely at methods.  Recall that all 
@@ -59,17 +59,18 @@ public class Student {
 	// This method should only return true if two students are equal.  
 	// Be careful about how you define equality.
 	public boolean isEqual(Student otherStudent) {
-		/*** YOUR CODE HERE ***/
+		/*** CHANGE AND COMPLETE THIS METHOD ***/
 
-		return true;
+		return true; // make sure to change this line.
 	}
-
 
 	// This method should increase the student's age, and be called 
 	// "happyBirthday".  You can decide if there should be arguments or not
 	// and if there should be a return value or not.
-	/*** YOUR CODE HERE ***/
-
+	/*** CHANGE AND COMPLETE THIS METHOD ***/
+	public String happyBirthday() {
+		return null;
+	}
 
 	// You should define a toString method to nicely print Student information.
 	/*** YOUR CODE HERE ***/
@@ -88,6 +89,10 @@ public class Student {
 		/*** CHANGE THE LINE BELOW ***/
 		Student friend = new Student();
 
+		// Code below this point is designed to test how well you have
+		// implemented the requested features.  You do not need to do anything beyond
+		// this point unless you are interested in checking your code.
+
 		Student jacob1 = new Student();
 		Student jacob2 = new Student();
 
@@ -102,6 +107,17 @@ public class Student {
 
 		if (me.isEqual(friend)) {
 			System.out.println("I'm sorry you don't have friends.");
+		}
+
+		System.out.println(jacob1);
+		System.out.println(jacob2);
+		System.out.println(me);
+		System.out.println(friend);
+
+		int age = jacob1.age;
+		jacob1.happyBirthday();
+		if (age == jacob1.age) {
+			System.out.println("Your solution is not correct!");
 		}
 	}
 }
