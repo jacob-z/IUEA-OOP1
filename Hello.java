@@ -1,4 +1,9 @@
 /******************************************************************************/
+/* This file was created by Jacob Zimmer for use at the International 		  */
+/* University of East Africa in Kampala, Uganda.  It may be used as study     */
+/* material for private individuals or with permission in an educational      */
+/* setting.  Contact the creator at zimmer.jacob@gmail.com 					  */
+/******************************************************************************/
 /* Name: 																	  */
 /* OOP1 Section: 															  */
 /******************************************************************************/
@@ -7,7 +12,7 @@
 /* be completed.  Try to complete each task to the best of your ability, but  */
 /* if you cannot figure something out, please move on quickly. 				  */
 /******************************************************************************/
-/* Below you can see your first program in Java, HelloWorld!   				  */
+/* Below you can see your first program in Java, Hello World!   			  */
 /* See how the code is structured and later try to memorize the structure of  */
 /* the code as all of these elements will be used over and over again.  It's  */
 /* totally fine to not understand anything here, you just need to see what it */
