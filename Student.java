@@ -65,7 +65,13 @@ public class Student {
 	}
 
 
-	// This method should
+	// This method should increase the student's age, and be called 
+	// "happyBirthday".  You can decide if there should be arguments or not
+	// and if there should be a return value or not.
+	/*** YOUR CODE HERE ***/
+
+
+	// You should define a toString method to nicely print Student information.
 	/*** YOUR CODE HERE ***/
 
 
