@@ -65,8 +65,8 @@ public class Student {
 	}
 
 
-	// This method should do something with loops and the random ID number
-	// public
+	// This method should
+	/*** YOUR CODE HERE ***/
 
 
 	// A main method to test your code.
@@ -75,11 +75,11 @@ public class Student {
 		// In the following examples, use the custom constructor.
 
 		// Declare yourself as a new student called "me"
-		/*** YOUR CODE HERE ***/
+		/*** CHANGE THE LINE BELOW ***/
 		Student me = new Student();
 
 		// Declare a friend as a new student called "friend"
-		/*** YOUR CODE HERE ***/
+		/*** CHANGE THE LINE BELOW ***/
 		Student friend = new Student();
 
 		Student jacob1 = new Student();
