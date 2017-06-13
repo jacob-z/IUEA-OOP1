@@ -1,0 +1,61 @@
+/******************************************************************************/
+/* This file was created by Thomas Gwozdz for use at the International        */
+/* University of East Africa in Kampala, Uganda.  It may be used as study     */
+/* material for private individuals or with permission in an educational      */
+/* setting.  Contact the creator at tg0640@gmail.com                          */
+/******************************************************************************/
+/* Name:                                                                      */
+/* OOP1 Section:                                                              */
+/******************************************************************************/
+/* This is a diagnostic test designed to see how well you have learned the    */
+/* concepts in the middle weeks of OOP1.  THIS IS NOT FOR A GRADE, but it MUST*/
+/* be completed.  Try to complete each task to the best of your ability, but  */
+/* if you cannot figure something out, please move on quickly.                */
+/******************************************************************************/
+
+
+
+public class Modifier {
+
+    // In Java, modifiers are keywords that allow you to change defintion
+    // meanings. There are access modifiers and non-access modifiers.
+
+    // Access modifiers (private, public, protected) allow you to decide
+    // the scope of the visibility of the defintion.
+
+    // By default, definitions (of variables, classes, methods, etc.) are
+    // only visible to the packages they are in.
+
+    // The private modifier makes the defintion only visible to the class.
+    private boolean myFlag;
+
+    // The public modifier makes the defintion visible to the world.
+    public double version = 2.1;
+
+    // The protected modifier makes the defintion visible to the package
+    // and all subclasses.
+    protected static final int NUM_METHODS = 3;
+
+
+    // Non-access modifiers (static, final, abstract, synchronized, volatile)
+    // provide other functionality. When coding, you will most often utilize
+    // and see the keywords static and final. Abstract allows for creation of
+    // abstract classes and methods. Synchronized and volatile are used for
+    // threads.
+
+    // The static modifier means that the definition is shared between all
+    // instances of the object. In this case, all objects of type Modifier
+    // would be able to see number_of_modifiers, which is 8.
+    // The final modifier means that the definition can only be declared 
+    // and initialized once. For example, a variable of type final int
+    // cannot be incremented.
+    public static final int number_of_modifiers = 8;
+
+
+
+    public static void main(String[] args) {
+
+        System.out.println("Welcome to modifiers!");
+
+        }
+    }
