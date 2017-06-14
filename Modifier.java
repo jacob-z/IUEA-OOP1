@@ -8,9 +8,9 @@
 /* OOP1 Section:                                                              */
 /******************************************************************************/
 /* This is a diagnostic test designed to see how well you have learned the    */
-/* concepts in the middle weeks of OOP1.  THIS IS NOT FOR A GRADE, but it MUST*/
-/* be completed.  Try to complete each task to the best of your ability, but  */
-/* if you cannot figure something out, please move on quickly.                */
+/* concepts in the 10th and 11th weeks of OOP1.  THIS IS NOT FOR A GRADE, but */
+/* it MUST be completed.  Try to complete each task to the best of your       */
+/* ability but if you cannot figure something out, please move on quickly.    */
 /******************************************************************************/
 
 
@@ -54,7 +54,7 @@ public class Modifier {
 
     public String objname = "";
 
-    /*** YOUR CODE HERE ***/ //see below for details
+    /*** YOUR CODE HERE ***/ // see below for details
 
 
     public static void main(String[] args) {
@@ -97,7 +97,7 @@ public class Modifier {
         // Try adding the keyword static in the declaration of objname above.
         // What does it do? Is that what you expect to happen?
 
-        // Finally, try adding your own variables above main() use keywords
+        // Finally, try adding your own variables above main() using keywords
         // static, final or no keyword. Experiment with the different
         // keywords and their effect on the ability of the program to share
         // variables between instances of Modifier.
