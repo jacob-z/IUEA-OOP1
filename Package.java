@@ -52,9 +52,9 @@ public class Package {
 
         // Here, we will use a package to print a few random numbers.
         Random generator = new Random();
-        System.out.println("A few randomly generated numbers using our Random package:");
+        System.out.println("A few randomly generated numbers from 0-99 using our Random package:");
         for (int i = 0; i < 3; i++) {
-            int rand = generator.nextInt();
+            int rand = generator.nextInt(100);
             System.out.println(rand);
         }
         System.out.println("");
