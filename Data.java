@@ -14,63 +14,63 @@
 /******************************************************************************/
 
 public class Data {
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		// In Java, there are three types of data and 8 "primitives"
+        // In Java, there are three types of data and 8 "primitives"
 
-		// Logical Data
-		boolean isNewToJava = true;
+        // Logical Data
+        boolean isNewToJava = true;
 
-		// Character Data
-		char firstInitial = 'J';
+        // Character Data
+        char firstInitial = 'J';
 
-		// Arithmetic Data (Maximum values)
-		byte   nonce         = 127;
-		short  smallNumber   = 32767;
-		int    normalNumber  = 2147483647;
-		long   bigNumber     = (long)  9.223372036E18;
-		float  hugeNumber    = (float) 3.402823470E38;
-		double largestNumber = 1.797693134E308;
+        // Arithmetic Data (Maximum values)
+        byte   nonce         = 127;
+        short  smallNumber   = 32767;
+        int    normalNumber  = 2147483647;
+        long   bigNumber     = (long)  9.223372036E18;
+        float  hugeNumber    = (float) 3.402823470E38;
+        double largestNumber = 1.797693134E308;
 
-		// Usually we only use a single space in Java programs, but sometimes 
-		// it is useful to add more spaces to make a set of variables easier
-		// to read.
+        // Usually we only use a single space in Java programs, but sometimes 
+        // it is useful to add more spaces to make a set of variables easier
+        // to read.
 
-		// Using these basic, or primitive, data types, we can built more 
-		// complex data types.  
+        // Using these basic, or primitive, data types, we can built more 
+        // complex data types.  
 
-		// One example is the string class, which is just a sequence of chars.
-		// *** See that we use quotes for strings and apostrophes for chars.
-		String hello = "Hello";
+        // One example is the string class, which is just a sequence of chars.
+        // *** See that we use quotes for strings and apostrophes for chars.
+        String hello = "Hello";
 
-		// We can also change data types if it is required or convenient
-		String lastInitialAsString = Character.toString('Z');
-		double aNumberThatMayIncrease = (double) 1;
+        // We can also change data types if it is required or convenient
+        String lastInitialAsString = Character.toString('Z');
+        double aNumberThatMayIncrease = (double) 1;
 
-		// *** EXERCISES ***
+        // *** EXERCISES ***
 
-		// Create two integers with informative names and values 7 and 10.
-
-
-
-		// Divide 7/10 but use the variables you have created.  Store the result 
-		// in an int called quotient.
-
-
-		// Check the value of quotient.  Is this what you expected?  How can you
-		// alter the problem to get the desired result? (Hint: Data Types)
-
-
-		// Create a char equal to the letter "A".  Print the result.
+        // Create two integers with informative names and values 7 and 10.
 
 
 
-		// Cast the char to an int in a new variable.  Print the result.
+        // Divide 7/10 but use the variables you have created.  Store the result 
+        // in an int called quotient.
+
+
+        // Check the value of quotient.  Is this what you expected?  How can you
+        // alter the problem to get the desired result? (Hint: Data Types)
+
+
+        // Create a char equal to the letter "A".  Print the result.
 
 
 
-		// Was the result what you expected?  Where did the number come from?
-	}
+        // Cast the char to an int in a new variable.  Print the result.
+
+
+
+        // Was the result what you expected?  Where did the number come from?
+    }
 }
 
 

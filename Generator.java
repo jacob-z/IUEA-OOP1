@@ -28,60 +28,60 @@ import java.util.Random;
 
 public class Generator extends Random {
 
-	// We create our own constructor, but call super() to invoke the constructor
-	// from the Random class.  We do this incase there is some setup for other
-	// methods that we may not want to be concerned with.
-	
-	public Generator() {
-		super();
-	}
+    // We create our own constructor, but call super() to invoke the constructor
+    // from the Random class.  We do this incase there is some setup for other
+    // methods that we may not want to be concerned with.
+    
+    public Generator() {
+        super();
+    }
 
 
-	// This is the method we are going to overwrite.  We will pretend that we
-	// wanted to ensure this was random so we rolled a die and got the number
-	// 4.  Based on this, we want the method to return 4 because that was chosen 
-	// randomly.  Obviously there are problems with this thinking, but for the
-	// sake of learning to avoid these problems you must commit the error.
+    // This is the method we are going to overwrite.  We will pretend that we
+    // wanted to ensure this was random so we rolled a die and got the number
+    // 4.  Based on this, we want the method to return 4 because that was chosen 
+    // randomly.  Obviously there are problems with this thinking, but for the
+    // sake of learning to avoid these problems you must commit the error.
 
-	protected int next(int bits) {
-		// Don't worry about this assert statement, it is just here to make sure
-		// the user inputs the correct number of bits.
-		assert 0 < bits && bits <= 32;
+    protected int next(int bits) {
+        // Don't worry about this assert statement, it is just here to make sure
+        // the user inputs the correct number of bits.
+        assert 0 < bits && bits <= 32;
 
-		return 4;
-	}
+        return 4;
+    }
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		// Now to see the difference we will create instances of both
-		// Generator and the parent class Random to see how our randomness
-		// compares.  Also notice that a new Generator meets the requirements
-		// of class Random but you could not declare a Generator to be a new
-		// Random.
+        // Now to see the difference we will create instances of both
+        // Generator and the parent class Random to see how our randomness
+        // compares.  Also notice that a new Generator meets the requirements
+        // of class Random but you could not declare a Generator to be a new
+        // Random.
 
-		Random random = new Random();
-		Random generator = new Generator();
+        Random random = new Random();
+        Random generator = new Generator();
 
-		// We are going to make the same call to the Random class method
-		// nextInt(10), which gives a random integer less than 10.  The 
-		// problem we will see is that nextInt, which we have not changed,
-		// actually relies on next for its randomness.
+        // We are going to make the same call to the Random class method
+        // nextInt(10), which gives a random integer less than 10.  The 
+        // problem we will see is that nextInt, which we have not changed,
+        // actually relies on next for its randomness.
 
-		System.out.println("Printing random bytes (Random):");
-		for (int i = 0; i < 10; i++) {
-			System.out.print(random.nextInt(10) + " ");
-		}
+        System.out.println("Printing random bytes (Random):");
+        for (int i = 0; i < 10; i++) {
+            System.out.print(random.nextInt(10) + " ");
+        }
 
-		System.out.println("\nPrinting \"random\" bytes (Generator):");
-		for (int i = 0; i < 10; i++) {
-			System.out.print(generator.nextInt(10) + " ");
-		}
+        System.out.println("\nPrinting \"random\" bytes (Generator):");
+        for (int i = 0; i < 10; i++) {
+            System.out.print(generator.nextInt(10) + " ");
+        }
 
-		System.out.println("");
+        System.out.println("");
 
-		// *** NO EXERCISES THIS WEEK ***
-		// If you wish to practice with inheritance you can try to override the
-		// other methods of Random, or try to make your own random function
-		// for a serious challenge.
-	}
+        // *** NO EXERCISES THIS WEEK ***
+        // If you wish to practice with inheritance you can try to override the
+        // other methods of Random, or try to make your own random function
+        // for a serious challenge.
+    }
 }

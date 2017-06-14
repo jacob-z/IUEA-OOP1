@@ -26,94 +26,94 @@
 
 public class Thing {
 
-	// instance variables always need comments to describe what they do.
-	// You'll notice that even if the variable names are descriptive, comments
-	// are still required.  Be very careful about choosing types for these vars.
-	// The way it is done here only allows the owner of the building to change.
+    // instance variables always need comments to describe what they do.
+    // You'll notice that even if the variable names are descriptive, comments
+    // are still required.  Be very careful about choosing types for these vars.
+    // The way it is done here only allows the owner of the building to change.
 
-	private String owner;			// The owner of the Thing
-	private final String address;	// The location of the Thing
-	private final double height;	// The height of the Thing
-	private final double sqm;		// The square meters inside the Thing
-
-
-	// The code that follows is a constructor.  Think of a class, or all of
-	// this code as a "blueprint" for what you are going to make.  The 
-	// constructor describes how a Thing is built, and you will see exactly
-	// how that works in the main method below.
-
-	public Thing(String owner, String address, double height, double sqm) {
-		this.owner = owner;
-		this.address = address;
-		this.height = height;
-		this.sqm = sqm;
-	}
+    private String owner;           // The owner of the Thing
+    private final String address;   // The location of the Thing
+    private final double height;    // The height of the Thing
+    private final double sqm;       // The square meters inside the Thing
 
 
-	// Now we have the instance methods.  These methods generally fall into two
-	// categories, "getter" and "setter".  The changeOwner method is a setter
-	// method because it changes the value of owner.  The whereIsIt method is
-	// a getter method because it just returns the address.
+    // The code that follows is a constructor.  Think of a class, or all of
+    // this code as a "blueprint" for what you are going to make.  The 
+    // constructor describes how a Thing is built, and you will see exactly
+    // how that works in the main method below.
 
-	// Notice that the changeOwner, a setter method, has no return value.
-
-	public void changeOwner(String newOwner) {
-		owner = newOwner;
-	}
-
-	// The getter method whereIsIt has no arguments.
-
-	public String whereIsIt() {
-		return address;
-	}
+    public Thing(String owner, String address, double height, double sqm) {
+        this.owner = owner;
+        this.address = address;
+        this.height = height;
+        this.sqm = sqm;
+    }
 
 
-	// Lastly, we have a special type of instance method.  The toString method
-	// defines a way that your object will be printed if you call 
-	// System.out.println( *Thing instance* ).  You will see how it works 
-	// in the main.
+    // Now we have the instance methods.  These methods generally fall into two
+    // categories, "getter" and "setter".  The changeOwner method is a setter
+    // method because it changes the value of owner.  The whereIsIt method is
+    // a getter method because it just returns the address.
 
-	public String toString() {
-		return  "Owner:\t\t"       + owner +   "\n" +
-				"Location:\t"      + address + "\n" + 
-				"Height (m):\t"    + height +  "\n" +
-				"Square Meters:\t" + sqm +     "\n";
-	}
+    // Notice that the changeOwner, a setter method, has no return value.
+
+    public void changeOwner(String newOwner) {
+        owner = newOwner;
+    }
+
+    // The getter method whereIsIt has no arguments.
+
+    public String whereIsIt() {
+        return address;
+    }
 
 
-	// At this point, you should have a pretty good idea of what a better name
-	// for this class might be.  If you are unsure, look back at the instance
-	// variables and how we define what can be done with class. (It's a building)
+    // Lastly, we have a special type of instance method.  The toString method
+    // defines a way that your object will be printed if you call 
+    // System.out.println( *Thing instance* ).  You will see how it works 
+    // in the main.
 
-	// Finally, in order to be run all programs must have a main method.  You
-	// can create a class A without a main method so long as a main appears in
-	// another class B that uses your class A.
+    public String toString() {
+        return  "Owner:\t\t"       + owner +   "\n" +
+                "Location:\t"      + address + "\n" + 
+                "Height (m):\t"    + height +  "\n" +
+                "Square Meters:\t" + sqm +     "\n";
+    }
 
-	public static void main(String[] args) {
 
-		// Now that we have defined everything above and made our "blueprints",
-		// we can construct our objects in the main. The declaration is very 
-		// similar to normal declarations, except you must use the constructor
-		// from above.  This means you need to give arguments to build a Thing.
+    // At this point, you should have a pretty good idea of what a better name
+    // for this class might be.  If you are unsure, look back at the instance
+    // variables and how we define what can be done with class. (It's a building)
 
-		Thing empireState = new Thing("Empire State Realty Trust", 
-									  "350 Fifth Avenue Manhattan, NY 10118",
-									  443.2, 208879);
+    // Finally, in order to be run all programs must have a main method.  You
+    // can create a class A without a main method so long as a main appears in
+    // another class B that uses your class A.
 
-		// Now that we have built the thing, let's check that it built 
-		// how we wanted it to.  The cool thing about the toString method we
-		// wrote earlier is that it is called automatically when the object
-		// is being printed.
+    public static void main(String[] args) {
 
-		System.out.println(empireState);
+        // Now that we have defined everything above and made our "blueprints",
+        // we can construct our objects in the main. The declaration is very 
+        // similar to normal declarations, except you must use the constructor
+        // from above.  This means you need to give arguments to build a Thing.
 
-		// Let's also check the other two methods we wrote.
+        Thing empireState = new Thing("Empire State Realty Trust", 
+                                      "350 Fifth Avenue Manhattan, NY 10118",
+                                      443.2, 208879);
 
-		empireState.changeOwner("Jacob Zimmer");
-		System.out.println(empireState.whereIsIt());
-		System.out.println(empireState);
+        // Now that we have built the thing, let's check that it built 
+        // how we wanted it to.  The cool thing about the toString method we
+        // wrote earlier is that it is called automatically when the object
+        // is being printed.
 
-		// *** NO EXERCISES THIS WEEK ***
-		// If you want to experiment, try writing and using other methods.
-	}
+        System.out.println(empireState);
+
+        // Let's also check the other two methods we wrote.
+
+        empireState.changeOwner("Jacob Zimmer");
+        System.out.println(empireState.whereIsIt());
+        System.out.println(empireState);
+
+        // *** NO EXERCISES THIS WEEK ***
+        // If you want to experiment, try writing and using other methods.
+    }
 }

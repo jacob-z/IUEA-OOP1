@@ -24,27 +24,27 @@
 // The double backslash is a type of single line comment.
 
 public class Hello {
-	public static void main(String[] args) {
-		System.out.println("Hello World");
+    public static void main(String[] args) {
+        System.out.println("Hello World");
 
-		// That's it, that's all of Hello World! But here are some things to
-		// try that will give you a better understanding of what is happening.
-		// You should stop and run the code now to see the output.
+        // That's it, that's all of Hello World! But here are some things to
+        // try that will give you a better understanding of what is happening.
+        // You should stop and run the code now to see the output.
 
-		// *** EXERCISES ***
+        // *** EXERCISES ***
 
-		// First try copying and pasting "System.out.println("Hello World");"
-		// below this comment.  How does the output change?
-
-
-
-		// Second, try changing the text "Hello World" to something else.  Make
-		// sure to keep the quotation marks around what you write.
+        // First try copying and pasting "System.out.println("Hello World");"
+        // below this comment.  How does the output change?
 
 
 
-		// Finally, try removing the "ln" from the first command above,
-		// "System.out.println("Hello World");"  How does this alter the output
-		// of the program?  What do you think "ln" stands for?
-	}
+        // Second, try changing the text "Hello World" to something else.  Make
+        // sure to keep the quotation marks around what you write.
+
+
+
+        // Finally, try removing the "ln" from the first command above,
+        // "System.out.println("Hello World");"  How does this alter the output
+        // of the program?  What do you think "ln" stands for?
+    }
 }
