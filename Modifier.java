@@ -17,22 +17,22 @@
 
 public class Modifier {
 
-    // In Java, modifiers are keywords that allow you to change defintion
+    // In Java, modifiers are keywords that allow you to change definition
     // meanings. There are access modifiers and non-access modifiers.
 
     // Access modifiers (private, public, protected) allow you to decide
-    // the scope of the visibility of the defintion.
+    // the scope of the visibility of the definition.
 
     // By default, definitions (of variables, classes, methods, etc.) are
     // only visible to the packages they are in.
 
-    // The private modifier makes the defintion only visible to the class.
+    // The private modifier makes the definition only visible to the class.
     private boolean myFlag;
 
-    // The public modifier makes the defintion visible to the world.
+    // The public modifier makes the definition visible to the world.
     public double version = 2.1;
 
-    // The protected modifier makes the defintion visible to the package
+    // The protected modifier makes the definition visible to the package
     // and all subclasses.
     protected static final int NUM_METHODS = 3;
 
@@ -45,9 +45,8 @@ public class Modifier {
     // The static modifier means that the definition is shared between all
     // instances of the object. In this case, all objects of type Modifier
     // would be able to see number_of_modifiers, which is 8.
-    // The final modifier means that the definition can only be declared 
-    // and initialized once. For example, a variable of type final int
-    // cannot be incremented.
+    // The final modifier means that the definition can only be initialized 
+    // once. For example, a variable of type final int cannot be incremented.
     public static final int number_of_modifiers = 8;
 
     public static int staticbutnotfinal = 2;
@@ -67,7 +66,7 @@ public class Modifier {
 
         // number_of_modifiers = 9;
 
-        // A few new Modifier objects to play with.
+        // A few Modifier objects to work with.
         Modifier mod1 = new Modifier();
         Modifier mod2 = new Modifier();
 

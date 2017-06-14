@@ -13,15 +13,14 @@
 /* ability but if you cannot figure something out, please move on quickly.    */
 /******************************************************************************/
 
-// Import declarations are key to using packages. Import declarations allow
-// your program to use methods and classes from other packages. This can save
-// you time so you don't have to rewrite helpful methods that already exist!
+// Import declarations are very helpful for using packages. Import declarations 
+// allow your program to use methods and classes from other packages easily. 
+// This can save you time so you don't have to rewrite helpful methods that 
+// already exist!
 
 // You can import a whole package or only specific classes from that package.
-// Below, we have imported the class Random from the package java.util. We can
-// now refer and call methods inside Random without reference Random. Java will
-// automatically search java.util.Random to look for a method if you call one.
-// We will also import other packages for use later.
+// Below, we have imported the class Random from the package java.util. We will 
+// also import other packages for use later.
 import java.util.Random;
 import java.lang.System;
 import java.util.Date;
@@ -39,16 +38,19 @@ public class Package {
         // We put \n at the end of the line because we want to print two
         // new lines after each section, to make the output more clear.
         // System.out.println already adds one newline, we added another.
+        // All of java.lang is imported automatically by the compiler.
         System.out.println("Welcome to packages!\n");
 
         // In Java, packages are a mechanism to encapsulate a group of classes, 
         // interfaces and sub packages. Java comes with many packages, including
         // util, lang, and io (which stands for input/output). We will
         // demonstrate how to utilize packages. We will not delve into how to
-        // make your own packages yet - that is a little too complex for OOP I.
+        // make your own packages yet.
 
         // You may have to consult the internet to find various helpful methods
         // and research packages that you can use (and maybe download first).
+
+        // Here, we will use a package to print a few random numbers.
         Random generator = new Random();
         System.out.println("A few randomly generated numbers using our Random package:");
         for (int i = 0; i < 3; i++) {
@@ -78,10 +80,12 @@ public class Package {
         System.out.println("The date and time is " + date.toString() + "\n");
 
 
-        // Using a ArrayList package, we can represented an ordered list of objects.
-        // An ArrayList is a list simply stored in an array object behind the scenes,
-        // which allows for many constant time functions, making the object run fast.
-        // In this example, we will input names in a class, then print out the names.
+        // Using a ArrayList package, we can represent an ordered list of objects.
+        // An ArrayList is a list simply stored as an array behind the scenes
+        // which allows for many constant time functions, making the list run fast.
+        // In this example, we will input names in a mock class, then print out the names.
+        // We must specify that the ArrayList is of type <String>, because it is
+        // generic. If we wanted the list to hold ints, we would instead use <Integer>.
         ArrayList<String> classlist = new ArrayList<String>();
         classlist.add("Thomas");
         classlist.add("Jacob");
@@ -100,7 +104,7 @@ public class Package {
         }
         System.out.println("");
 
-        
+
         System.out.println("This is the output of your code from the exercises:");
 
         /*** EXERCISES ***/
@@ -112,9 +116,11 @@ public class Package {
         /*** YOUR CODE HERE ***/
 
         // In Java, String is a class in the package java.lang. (That is why the type
-        // String is capitalized, while int or float are not. They are primitive types.)
-        // Use String to print the string "   There is lots of whitespace around    ".
-        // (Do not just print the statement! Use a method from the String class.)
+        // String is capitalized, while int or float are not -- they are primitive types.)
+        // Use String to print the string "   There is lots of whitespace around    "
+        // without all of the whitespace. Copy it into input for a method.
+        // (Do not just print the statement! Use a method from the String class to trim the
+        // leading and trailing whitespace.)
 
         /*** YOUR CODE HERE ***/
 
