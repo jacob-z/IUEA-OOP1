@@ -36,7 +36,6 @@ public class Modifier {
     // and all subclasses.
     protected static final int NUM_METHODS = 3;
 
-
     // Non-access modifiers (static, final, abstract, synchronized, volatile)
     // provide other functionality. When coding, you will most often utilize
     // and see the keywords static and final. Abstract allows for creation of
@@ -51,11 +50,59 @@ public class Modifier {
     // cannot be incremented.
     public static final int number_of_modifiers = 8;
 
+    public static int staticbutnotfinal = 2;
+
+    public String objname = "";
+
+    /*** YOUR CODE HERE ***/ //see below for details
 
 
     public static void main(String[] args) {
 
         System.out.println("Welcome to modifiers!");
+
+        // In fact, the compiler won't even let you assign a value to
+        // a final variable after it has one. Try commenting in the
+        // line below and see what happens when you compile.
+
+        // number_of_modifiers = 9;
+
+        // A few new Modifier objects to play with.
+        Modifier mod1 = new Modifier();
+        Modifier mod2 = new Modifier();
+
+        // Here, we can see the static final variable is shared by all 
+        // instances of the object.
+        System.out.println("A static final variable: " + mod1.NUM_METHODS);
+        System.out.println("A static final variable: " + mod2.NUM_METHODS);
+
+
+        // Now, we can update a static but not final variable, and it will
+        // change among all instances of the class. So really, the two
+        // statements below are adding to the same variable.
+        mod1.staticbutnotfinal += 1;
+        mod2.staticbutnotfinal += 2;
+
+        System.out.println("This should be 5: " + mod1.staticbutnotfinal);
+        System.out.println("This should be 5: " + mod2.staticbutnotfinal);
+
+        // We can also add to nonstatic variables, which will mean they are
+        // separate among instances of the object and will be different values.
+        mod1.objname += "This is mod1";
+        mod2.objname += "This is mod2";
+
+        System.out.println(mod1.objname);
+        System.out.println(mod2.objname);
+
+        // Try adding the keyword static in the declaration of objname above.
+        // What does it do? Is that what you expect to happen?
+
+        // Finally, try adding your own variables above main() use keywords
+        // static, final or no keyword. Experiment with the different
+        // keywords and their effect on the ability of the program to share
+        // variables between instances of Modifier.
+
+        /*** YOUR CODE HERE ***/
 
         }
     }
