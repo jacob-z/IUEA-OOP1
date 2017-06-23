@@ -115,5 +115,6 @@ public class Thing {
 
         // *** NO EXERCISES THIS WEEK ***
         // If you want to experiment, try writing and using other methods.
+        }
     }
 }
