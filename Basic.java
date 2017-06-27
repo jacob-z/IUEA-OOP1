@@ -41,9 +41,48 @@ public class Basic {
         // opening and closing blocks of code.  Semicolons are for ending 
         // statements.
 
+
+
+
+        final boolean THE_TRUTH = true;
+
+        if (THE_TRUTH) {
+        	System.out.println("The Truth is true.");
+        } else {
+        	System.out.println("The Truth is false.");
+        }
+
+
+
+
+
+        final int condition = 2;
+
+        if (condition == 1) {
+        	System.out.println("Condition is 1");
+        } else if (condition == 2) {
+        	System.out.println("Condition is 2.");
+        } else if (condition == 3) {
+        	System.out.println("Condition is 3.");
+        }
+
+
+
+        switch (condition) {
+        	case 1:		System.out.println("Condition is 1.");
+        				break;
+        	case 2: 	System.out.println("Condition is 2.");
+        				break;
+        	case 3:		System.out.println("Condition is 2.");
+        				break;
+        	default:	System.out.println("Condition is invalid.");
+        				break;
+        }
+        
+
+
+
         // *** EXERCISES ***
 
-        // As an exercise, you might try retyping this program into a new file
-        // on your own computer.  This will help with memorizing the structure.
     }
 }
