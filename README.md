@@ -8,3 +8,7 @@ designed to be read through and then interacted with to explore the relationship
 and the code creating that output.  Most weeks feature exercises to challenge students and help them master
 these basic concepts.  Occasionally the more advanced topics do not include these exercises and students are 
 encouraged to attempt to replicate the code on their own and apply the concepts to other programs they have seen.
+
+June 20: Hello.java, Proper Programming Techniques
+June 22: Basic.java, Data.java, Control.java
+June 27: Control.java, In.java, wordCount.java
