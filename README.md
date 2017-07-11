@@ -19,4 +19,4 @@ July 4: WhileLoop.java, Guide to Proper Programming Techniques
 
 July 6: Review Session
 
-July 11: Stars.java
+July 11: Stars.java, Teams Exercise
