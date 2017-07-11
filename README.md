@@ -14,3 +14,9 @@ June 20: Hello.java, Proper Programming Techniques
 June 22: Basic.java, Data.java, Control.java
 
 June 27: Control.java, In.java, wordCount.java
+
+July 4: WhileLoop.java, Guide to Proper Programming Techniques
+
+July 6: Review Session
+
+July 11: Stars.java
