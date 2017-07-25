@@ -74,7 +74,7 @@ public class Thing {
     // in the main.
 
     public String toString() {
-        return  "Owner:\t\t"       + owner +   "\n" +
+        return  "Owner:\t\t"       + owner +   "\n" + 
                 "Location:\t"      + address + "\n" + 
                 "Height (m):\t"    + height +  "\n" +
                 "Square Meters:\t" + sqm +     "\n";
@@ -96,8 +96,8 @@ public class Thing {
         // similar to normal declarations, except you must use the constructor
         // from above.  This means you need to give arguments to build a Thing.
 
-        Thing empireState = new Thing("Empire State Realty Trust", 
-                                      "350 Fifth Avenue Manhattan, NY 10118",
+        Thing empireState = new Thing("Empire State Realty Trust",
+                                      "350 Fifth Avenue Manhattan, NY 10118", 
                                       443.2, 208879);
 
         // Now that we have built the thing, let's check that it built 
