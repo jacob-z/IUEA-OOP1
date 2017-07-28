@@ -20,3 +20,13 @@ July 4: WhileLoop.java, Guide to Proper Programming Techniques
 July 6: Review Session
 
 July 11: Stars.java, Teams Exercise
+
+July 13: RandomWalker.java, RandomWalkers.java
+
+July 18: BankAccount.java
+
+July 20: wordCountWithMethod.java, MathFunctions.java, HollowDiamond.java, HollowSquare.java
+
+July 25: Car.java, Thing.java
+
+July 27: Fibonacci.java
