@@ -8,7 +8,7 @@
 /* OOP1 Section:                                                              */
 /******************************************************************************/
 /* This is a diagnostic test designed to see how well you have learned the    */
-/* concepts in the 10th and 11th weeks of OOP1.  THIS IS NOT FOR A GRADE, but */
+/* concepts in the eleventh week of OOP1.  THIS IS NOT FOR A GRADE, but       */
 /* it MUST be completed.  Try to complete each task to the best of your       */
 /* ability but if you cannot figure something out, please move on quickly.    */
 /******************************************************************************/
@@ -52,7 +52,7 @@ public class Package {
 
         // Here, we will use a package to print a few random numbers.
         Random generator = new Random();
-        System.out.println("A few randomly generated numbers from 0-99 using our Random package:");
+        System.out.println("A few randomly generated numbers from 0-99 using the Random package:");
         for (int i = 0; i < 3; i++) {
             int rand = generator.nextInt(100);
             System.out.println(rand);

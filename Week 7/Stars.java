@@ -2,6 +2,7 @@
  *  Author: Jacob Zimmer
  *
  *  Prints a pattern of stars with n^2 asterisks total and n asterisks per row.
+ *  n is a command line argument integer.
  *
  *  % java Stars 5
  *  * * * * * 

@@ -8,7 +8,7 @@
 /* OOP1 Section:                                                              */
 /******************************************************************************/
 /* This is a diagnostic test designed to see how well you have learned the    */
-/* concepts in the second week of OOP1.  THIS IS NOT FOR A GRADE, but it MUST */
+/* concepts in the fourth week of OOP1.  THIS IS NOT FOR A GRADE, but it MUST */
 /* be completed.  Try to complete each task to the best of your ability, but  */
 /* if you cannot figure something out, please move on quickly.                */
 /******************************************************************************/

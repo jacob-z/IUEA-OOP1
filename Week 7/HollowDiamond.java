@@ -2,7 +2,9 @@
 Thomas Gwozdz
 from class on July 20 2017
 
-This program prints out a hollow diamond.
+This program prints out a hollow diamond. It takes one 
+command line argument integer as the width of the diamond
+(must be odd).
 */
 
 public class HollowDiamond {

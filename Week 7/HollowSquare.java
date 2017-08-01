@@ -2,7 +2,9 @@
 Thomas Gwozdz
 from class on July 20 2017
 
-This program prints out a hollow square.
+This program prints out a hollow square. This program
+takes a command line argument N (an integer) which is the
+width (and height) of the square.
 */
 
 public class HollowSquare {

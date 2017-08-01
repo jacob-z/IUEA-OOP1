@@ -4,7 +4,10 @@ RandomWalkers.java
 Thomas Gwozdz
 
 This program simulates a random walker for N
-steps and calculates the distance they travel.
+steps and calculates the distance they travel. It runs this
+experiment t times and calculates the average distance a
+walker travels in t experiments. N and t are command line
+argument integers.
 */
 
 public class RandomWalkers {

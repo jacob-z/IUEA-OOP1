@@ -5,6 +5,7 @@ Counter.java
 
 This program sums the numbers from 1 to N, and 
 also calculates the closed-form answer for the sum.
+N is given as command line argument.
 */
 
 public class Counter {
